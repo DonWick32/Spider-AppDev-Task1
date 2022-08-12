@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:units/data_preferences.dart';
 import 'main.dart';
 
 class history extends StatelessWidget {
@@ -32,8 +31,6 @@ class history extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    //List<List<String>> data = DataPreferences.retrieveData();
-
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
