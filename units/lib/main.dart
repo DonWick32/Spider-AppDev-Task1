@@ -6,12 +6,8 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:flutter/services.dart';
 import 'package:units/history.dart';
 import 'package:vibration/vibration.dart';
-import 'data_preferences.dart';
 
-import 'data_preferences.dart';
-
-
-void main() async {
+void main() {
   runApp(Splash());
 }
 
@@ -171,10 +167,7 @@ List<List<String>> data = [];
               icon: Icon(
                 Icons.history_rounded,
               ),
-              onPressed: () async {
-                //await DataPreferences.init();
-                //await DataPreferences.save(data);
-                //if (!mounted) return;
+              onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context) => history(data)));
               },
             )
