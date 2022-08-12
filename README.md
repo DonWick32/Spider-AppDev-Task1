@@ -4,5 +4,5 @@ We can select various "Physical Properties", and it's "Units" using drop-down me
 We can also check our own conversion by pressing another button. <br>
 Clicking the icon on the top right corner of the screen, will take us to a "History" screen, where we can view all our previous "Converts". <br>
 
-- Nitish
+-- Nitish
 
